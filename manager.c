@@ -121,7 +121,7 @@ int selectMenu(){
 	scanf("%d", &menu);
 
 #ifdef DEBUG
-        printf("고른 번호는 : %d\n", menu);
+        printf("고른 번호는 : %d\n", menu); 
 #endif
 	return menu;
 }
