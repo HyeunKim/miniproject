@@ -17,6 +17,6 @@ $(DTARGET) : $(SRCS)
 .o : 
 	$(CC) $(CFLAGS) -c $<
 
- clean :
+clean :
 	rm *.o
 	rm product product_debug
