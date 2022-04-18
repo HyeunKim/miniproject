@@ -1,5 +1,3 @@
-//#include "product.h"
-
 void saveData(Product *p, int count);
 void readData(int count);
 int selectMenu();
