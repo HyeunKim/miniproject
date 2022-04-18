@@ -1,7 +1,6 @@
 #include "product.h"
 #include "manager.h"
 
-
 // 함수 테스트 위한 메인 함수
 int main(){
 	Product plist[20]; 	// 20개 품목까지 관리
