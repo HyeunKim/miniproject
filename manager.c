@@ -77,7 +77,7 @@ void saveData(Product *p, int count){
 	fp = fopen("product.txt", "wt");
 
 #ifdef DEBUG
-p	printf("저장할 데이터의 수 : %d\n",count);
+	printf("저장할 데이터의 수 : %d\n",count);
 #endif
 
 	for(int i = 0; i<count; i++){
